@@ -2,8 +2,7 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    // Turning off eslint rules which might conflict with prettier formatting
-    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
   ],
   env: {
     jest: true,
