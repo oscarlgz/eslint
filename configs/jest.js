@@ -1,7 +1,7 @@
 module.exports = {
   extends: ["plugin:jest/recommended"],
   rules: {
-    "jest/lowercase-name": [
+    "jest/prefer-lowercase-title": [
       "error",
       {
         ignore: ["describe"],
