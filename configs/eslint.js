@@ -68,5 +68,10 @@ module.exports = {
     "no-useless-return": "error",
     radix: "error",
     "prefer-promise-reject-errors": ["error", { allowEmptyReject: true }],
+    "padding-line-between-statements": [
+      "error",
+      { blankLine: "always", prev: ["const", "let", "var"], next: "*" },
+      { blankLine: "always", prev: ["if"], next: "*" },
+    ],
   },
 };
