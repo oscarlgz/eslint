@@ -70,8 +70,11 @@ module.exports = {
     "prefer-promise-reject-errors": ["error", { allowEmptyReject: true }],
     "padding-line-between-statements": [
       "error",
-      { blankLine: "always", prev: ["const", "let", "var"], next: "*" },
-      { blankLine: "always", prev: ["if"], next: "*" },
+      {
+        blankLine: "always",
+        prev: ["const", "let", "var", "if", "for", "while"],
+        next: "*",
+      },
     ],
   },
 };
