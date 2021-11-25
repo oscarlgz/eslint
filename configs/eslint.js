@@ -72,7 +72,7 @@ module.exports = {
       "error",
       {
         blankLine: "always",
-        prev: ["const", "let", "var", "if", "for", "while", "throw", "await"],
+        prev: ["const", "let", "var", "if", "for", "while", "throw", "try"],
         next: "*",
       },
     ],
