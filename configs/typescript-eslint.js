@@ -45,6 +45,11 @@ module.exports = {
           match: false,
         },
       },
+      {
+        selector: "variable",
+        modifiers: ["destructured"],
+        format: null,
+      },
     ],
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/explicit-function-return-type": [
