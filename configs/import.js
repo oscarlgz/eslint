@@ -43,6 +43,9 @@ module.exports = {
           "parent",
           ["sibling", "index"],
         ],
+        alphabetize: {
+          order: "asc",
+        },
       },
     ],
     "import/prefer-default-export": "off",
