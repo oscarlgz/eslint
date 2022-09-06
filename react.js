@@ -56,6 +56,36 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "security/detect-unsafe-regex": "warn",
     "security/detect-non-literal-regexp": "warn",
+    "unicorn/filename-case": [
+      "error",
+      {
+        cases: { camelCase: true, pascalCase: true },
+      },
+    ],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "never",
+        groups: [
+          ["builtin", "external"],
+          "internal",
+          "unknown",
+          "parent",
+          ["sibling", "index"],
+        ],
+        pathGroups: [
+          {
+            pattern: "react",
+            group: "builtin",
+            position: "before",
+          },
+        ],
+        pathGroupsExcludedImportTypes: ["react"],
+        alphabetize: {
+          order: "asc",
+        },
+      },
+    ],
   },
   overrides: [
     {
