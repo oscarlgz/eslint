@@ -86,6 +86,12 @@ module.exports = {
         },
       },
     ],
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        checksVoidReturn: false,
+      },
+    ],
   },
   overrides: [
     {
