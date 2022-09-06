@@ -38,6 +38,11 @@ module.exports = {
         trailingUnderscore: "forbid",
       },
       {
+        selector: ["property"],
+        format: null,
+        modifiers: ["requiresQuotes"],
+      },
+      {
         selector: "typeLike",
         format: ["PascalCase"],
         custom: {
