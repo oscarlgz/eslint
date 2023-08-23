@@ -4,6 +4,12 @@ module.exports = {
     "plugin:@typescript-eslint/stylistic-type-checked",
     "plugin:prettier/recommended",
   ],
+  plugins: ["@typescript-eslint"],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    project: true,
+    tsconfigRootDir: __dirname,
+  },
   env: {
     jest: true,
     node: true,
