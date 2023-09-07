@@ -20,7 +20,7 @@ module.exports = {
     ],
     "no-param-reassign": "off",
     "no-eval": "error",
-    "no-else-return": ["error", { allowElseIf: false }],
+    "no-else-return": "off",
     "no-extend-native": "error",
     curly: "error",
     "no-implicit-globals": "error",
