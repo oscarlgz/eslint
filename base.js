@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     require.resolve("./configs/eslint"),
-    require.resolve("./configs/export"),
     require.resolve("./configs/import"),
     require.resolve("./configs/jest"),
     require.resolve("./configs/sonar"),
